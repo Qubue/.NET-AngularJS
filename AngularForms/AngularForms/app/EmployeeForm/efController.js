@@ -15,6 +15,10 @@
             "Administration"
         ];
 
+        $scope.shouldShowFullName = function () {
+            return true;
+        }
+
         $scope.submitForm = function () {
             if ($scope.editableEmployee.id == 0) {
                 DataService.insertEmployee($scope.editableEmployee);

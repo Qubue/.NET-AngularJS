@@ -7,6 +7,7 @@
                     fullName: "Jakub Wójcicki",
                     notes: "Idealny pracownik",
                     department: "IT",
+                    dateHired: "11/7/11",
                     perkCar: true,
                     perkStock: false,
                     perkSixWeeks: true,
