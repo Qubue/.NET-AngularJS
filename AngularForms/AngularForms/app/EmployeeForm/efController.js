@@ -10,7 +10,7 @@
             "Administration"
         ];
 
-        $scope.submitForm(){
+        $scope.submitForm= function(){
 
-        };
+        }
     });

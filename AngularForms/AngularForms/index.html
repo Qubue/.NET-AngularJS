@@ -6,12 +6,18 @@
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <script src="Scripts/angular.min.js"></script>
     <script src="app/AngularFormApp.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
+
     <script src="app/EmployeeForm/efController.js"></script>
     <script src="app/EmployeeForm/efDirective.js"></script>
     <script src="app/EmployeeForm/efService.js"></script>
+    <script src="app/HomeController.js"></script>
+
 </head>
 <body ng-controller="efController" class="container">
-    <employee-form/>
-
+    <h1>Main Page</h1>
+    <div ng-view>
+        <input type="button" class="btn btn-primary" value="Add New Employee" />
+    </div>
 </body>
 </html>
